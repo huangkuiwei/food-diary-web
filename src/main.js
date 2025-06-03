@@ -4,9 +4,9 @@ import antd from 'ant-design-vue';
 import App from '@/App.vue';
 import router from '@router';
 
+import 'ant-design-vue/dist/antd.less';
 import '@styles/reset.less';
 import '@styles/global.less';
-import 'ant-design-vue/dist/antd.less';
 
 import 'lib-flexible';
 

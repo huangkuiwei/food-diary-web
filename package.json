@@ -1,0 +1,39 @@
+{
+  "name": "yz-enjoylife-web-shyz",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --mode production",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
+    "ant-design-vue": "^3.2.10",
+    "axios": "^1.3.3",
+    "core-js": "^3.8.3",
+    "js-cookie": "^3.0.1",
+    "lib-flexible": "^0.3.2",
+    "pinia": "^2.0.31",
+    "vant": "^4.0.11",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "weixin-js-sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "less": "^4.0.0",
+    "less-loader": "^8.0.0",
+    "postcss-pxtorem": "^5.1.1",
+    "prettier": "^2.4.1"
+  }
+}

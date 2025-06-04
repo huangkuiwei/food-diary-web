@@ -79,29 +79,55 @@
           </div>
 
           <div class="item">
-            <div class="title">数据报告</div>
-            <div class="tip">每周、每月数据统计一目了然</div>
+            <div class="title">记录</div>
+            <div class="tip">每日饮食运动打卡记录</div>
             <img src="@/assets/images/pc/home/mobile-icon2.png" alt="" />
           </div>
 
           <div class="item">
-            <div class="title">数据报告</div>
-            <div class="tip">每周、每月数据统计一目了然</div>
+            <div class="title">体重管理方案</div>
+            <div class="tip">为您定制合适的体重方案</div>
             <img src="@/assets/images/pc/home/mobile-icon3.png" alt="" />
           </div>
 
           <div class="item">
-            <div class="title">数据报告</div>
-            <div class="tip">每周、每月数据统计一目了然</div>
+            <div class="title">健康助手</div>
+            <div class="tip">为您的健康生活保驾护航</div>
             <img src="@/assets/images/pc/home/mobile-icon4.png" alt="" />
           </div>
 
           <div class="item">
-            <div class="title">数据报告</div>
-            <div class="tip">每周、每月数据统计一目了然</div>
+            <div class="title">AI助理</div>
+            <div class="tip">为您答疑解惑</div>
             <img src="@/assets/images/pc/home/mobile-icon5.png" alt="" />
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="logo">
+        <img src="@/assets/images/pc/home/logo2.png" alt="" />
+
+        <div>
+          <span>慧食搭子</span>
+          <span>记录美好生活</span>
+        </div>
+      </div>
+
+      <div class="qr-code">
+        <img src="@/assets/images/pc/home/qrcode.png" alt="" />
+
+        <div>
+          <span>扫描关注公众号</span>
+          <span>了解更多</span>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div style="margin-bottom: 34px">联系我们</div>
+        <div style="margin-bottom: 20px">公司名称：广州泰湖科技有限公司</div>
+        <div>电话：400-0000-0000</div>
       </div>
     </div>
   </div>
@@ -232,7 +258,7 @@
 
   > .introduce4 {
     position: relative;
-    padding: 77px 0 0;
+    padding: 77px 0 35px;
 
     > .introduce-title {
       display: flex;
@@ -277,12 +303,13 @@
         align-items: center;
 
         > .item {
+          align-self: stretch;
           flex-grow: 1;
-          padding: 40px 0;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
+          cursor: pointer;
 
           &:hover {
             background: #08bd94;
@@ -306,12 +333,53 @@
             width: 68%;
 
             &:hover {
-              transform: scale(1.1);
+              transform: scale(1.05);
               transition: 0.3s;
             }
           }
         }
       }
+    }
+  }
+
+  > .footer {
+    background: #000000;
+    padding: 0 15%;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > .logo,
+    .qr-code {
+      display: flex;
+      align-items: center;
+
+      &.logo {
+        margin-right: 105px;
+      }
+
+      &.qr-code {
+        flex-grow: 1;
+      }
+
+      > img {
+        width: 115px;
+        margin-right: 19px;
+      }
+
+      > div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 22px;
+        color: #ffffff;
+      }
+    }
+
+    > .contact {
+      font-size: 20px;
+      color: #ffffff;
     }
   }
 }
